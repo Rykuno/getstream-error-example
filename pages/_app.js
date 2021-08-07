@@ -1,7 +1,12 @@
-import '../styles/globals.css'
-
+import "../styles/globals.css";
+import "react-activity-feed/dist/index.css";
+import { Nav } from "../components/Nav";
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <Nav>
+      <Component {...pageProps} />
+    </Nav>
+  );
 }
 
-export default MyApp
+export default MyApp;

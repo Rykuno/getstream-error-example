@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  background: #fff;
+  height: 60;
+  margin: 10px 0;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.box {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.raf-comment-item {
+  border-bottom: 0;
+}
+
+.navLink {
+  margin-right: 20px;
+  display: inline;
+  background-color: lightseagreen;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+}
